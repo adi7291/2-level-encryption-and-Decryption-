@@ -91,7 +91,7 @@ function Rough() {
           
         }
          console.log(JSON.stringify({ payload:hash_data,hash :hash_data }))
-        fetch('http://192.168.1.89/sandeep/app/index.php/LcoRestServices/validateLogin', requestBody)
+        fetch('http://192', requestBody)
             .then(response => response.json())
             .then(data => console.log("ITP"+data));
 
